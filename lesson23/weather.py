@@ -18,7 +18,7 @@ def get_current_weather(city="Kansas City"):
 if __name__ == "__main__":
     print('\n*** Get Current Weather Conditions ***\n')
 
-    city = input("\nPlease enter a city name: ")
+    city = input("\nPlease enter a city name to check weather: ")
 
     # Check for empty strings or string with only spaces
     # This step is not required here
